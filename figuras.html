@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +7,55 @@
     <title>Figuras</title>
 </head>
 <body>
-    <h1>
-        Figuras Geométricas
-    </h1>    
+    <Header>
+        <h1>
+            Geometry Calculator
+        </h1>
+        <p>In this section you can obtain the perimeter and the area of an 
+            geometric figure just with some data!</p>  
+    </Header>
+    <section>
+        <h2>Square</h2>
+        <form action="">
+            <label for="">
+                <span>Side</span>
+                <input type="number"/>
+            </label>
+            <button>Get Perimeter</button>
+            <button>Get Area</button>
+        </form>
+       
+    </section>
+    <section>
+        <h2>Circle</h2>
+        <form action="">
+            <label for="">
+                <span>Radius</span>
+                <input type="number">
+            </label>
+            <button>Get Perimeter</button>
+            <button>Get Area</button>
+        </form>
+    </section>
+    <section>
+        <h2>Triangle</h2>
+        <form action="">
+            <label for="base">
+                <span>Base</span>
+                <input id="base" type="number"/>
+            </label>
+            <label for="triA">
+                <span>Side A</span>
+                <input id="triA" type="number"/>
+            </label>
+            <label for="triB">
+                <span>Side B</span>
+                <input id="triB" type="number"/>
+            </label>
+            <button>Get Perimeter</button>
+            <button>Get Area</button>
+        </form>
+    </section>  
     <script src="./figuras.js"></script>
 </body>
 </html>
