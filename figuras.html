@@ -9,51 +9,51 @@
 <body>
     <Header>
         <h1>
-            Geometry Calculator
+            Figuras Geometricas
         </h1>
-        <p>In this section you can obtain the perimeter and the area of an 
-            geometric figure just with some data!</p>  
+        <p>Una pequeña aplicación para calcular el area y el perimetro de algunas figuras,
+            parte del curso práctico de Javascript de Platzi
+        </p>  
     </Header>
     <section>
-        <h2>Square</h2>
+        <h2>Cuadrado</h2>
         <form action="">
-            <label for="">
-                <span>Side</span>
-                <input type="number"/>
+            <label for="inputCuadrado">
+                <span>Lado</span>
+                <input id="inputCuadrado" type="number"/>
             </label>
-            <button>Get Perimeter</button>
-            <button>Get Area</button>
-        </form>
-       
+            <button type="button" onclick="CalcularPerimetroCuadrado()">Calcular perímetro</button>
+            <button type="button" onclick="CalcularAreaCuadrado()">Calcular área</button>
+        </form>   
     </section>
     <section>
-        <h2>Circle</h2>
+        <h2>Círculo</h2>
         <form action="">
-            <label for="">
-                <span>Radius</span>
-                <input type="number">
+            <label for="inputCirculo">
+                <span>Radio</span>
+                <input id="inputCirculo" type="number" >
             </label>
-            <button>Get Perimeter</button>
-            <button>Get Area</button>
+            <button type="button" onclick="CalcularPerimetroCirculo()">Calcular perímetro</button>
+            <button type="button" onclick="CalcularAreaCirculo()">Calcular área</button>
         </form>
     </section>
     <section>
-        <h2>Triangle</h2>
+        <h2>Triángulo</h2>
         <form action="">
             <label for="base">
                 <span>Base</span>
                 <input id="base" type="number"/>
             </label>
-            <label for="triA">
-                <span>Side A</span>
-                <input id="triA" type="number"/>
+            <label for="ladoa">
+                <span>Lado A</span>
+                <input id="ladoa" type="number"/>
             </label>
-            <label for="triB">
-                <span>Side B</span>
-                <input id="triB" type="number"/>
+            <label for="ladob">
+                <span>Lado B</span>
+                <input id="ladob" type="number"/>
             </label>
-            <button>Get Perimeter</button>
-            <button>Get Area</button>
+            <button type="button" onclick="CalcularPerimetroTriangulo()">Calcular perímetro</button>
+            <button type="button" onclick="CalcularAreaTriangulo()">Calcular área</button>
         </form>
     </section>  
     <script src="./figuras.js"></script>
