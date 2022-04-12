@@ -1,10 +1,6 @@
 # js-practico-platzi
 
 ...
+Curso de Javascript Practico de Platzi, en este repo iré subiendo los avanzes del taller tomandome las libertades para darle mi toque personal a los projectos :)
 
-##Taller #1: Figuras geométricas
 
--Definir las fórmulas
--Implementar las fórmulas en JS
--Crear funciones
--Integrar JS con HTML
